@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 50%;
+    min-width: 500px;
+    height: 470px;
+    margin-left: 30%;
+    margin-top: 50px;
+    max-width: 500px;
+    background-color: rgb(0, 0, 0);
+    border-top: 10px solid rgb(255, 0, 0);
+    border-bottom: 10px solid rgb(255, 0, 0);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.display{
+    width: 90%;
+    height: 70px;
+    margin-left: 5%;
+    background-color: rgb(240, 255, 255);
+    border-radius: 20px;
+    padding: 15px;
+}
+.disppar{
+    /* float: right; */
+    font-size: 35px;
+    
+    
+}
+
+.buttons{
+    margin-left: 2%;
+    margin-top: 15px;
+}
+
+button{
+    width: 80%;
+    min-width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 35px;
+    font-style: bold;
+    border-style: none;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: aquamarine;
+}
+
+/* td{
+    width: 80px;
+    height: 80px;
+} */
+
+.lighton{
+    background-color: rgb(255, 238, 0);
+}
+
+
+.lightoff{
+    background-color: white;
+}

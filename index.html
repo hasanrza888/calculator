@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</link>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form  name="form">
+            <input id="light" class="display disppar" name="textarea">
+        </form>
+
+        <div class="buttons">
+            <table>
+                <tr>
+                    <td><button type="input" onclick="displayfunc(7)">7</button></td>
+                    <td><button type="button" onclick="displayfunc(8)">8</button></td>
+                    <td><button type="button" onclick="displayfunc(9)">9</button></td>
+                    <td><button type="button" onclick="displayfunc('+')">+</button></td>
+                    <td><button type="button" onclick="back()"> < </button></td>
+
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="displayfunc(4)">4</button></td>
+                    <td><button type="button" onclick="displayfunc(5)">5</button></td>
+                    <td><button type="button" onclick="displayfunc(6)">6</button></td>
+                    <td><button type="button" onclick="displayfunc('-')">-</button></td>
+                    <td><button type="button" onclick="clean()">C</button></td>
+
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="displayfunc(1)">1</button></td>
+                    <td><button type="button" onclick="displayfunc(2)">2</button></td>
+                    <td><button type="button" onclick="displayfunc(3)">3</button></td>
+                    <td><button type="button" onclick="displayfunc('*')">*</button></td>
+                    <td><button type="button" class='lighton' onclick="light()"><i class="fa fa-lightbulb-o" style="font-size:35px; color: rgb(0, 0, 0);"></i></button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="displayfunc(0)">0</button></td>
+                    <td><button type="button" onclick="displayfunc('.')">.</button></td>
+                    <td><button type="button" onclick="displayfunc('/')">/</button></td>
+                    <td><button type="button" onclick="hesabla()">=</button></td>
+                    <td><button type="button" class="lightoff" onclick="lightoff()"><i class="fa fa-lightbulb-o" style="font-size:35px; color: rgb(0, 0, 0);"></i></button></td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+
+</body>
+</html>
